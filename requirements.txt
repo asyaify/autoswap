@@ -1,0 +1,13 @@
+diffusers>=0.35.0
+transformers>=4.51.0
+accelerate>=1.5.0
+safetensors>=0.5.3
+torch>=2.5.0
+torchvision>=0.20.0
+Pillow>=11.1.0
+opencv-python>=4.11.0
+numpy>=1.26,<2
+mediapipe==0.10.20
+sam2>=1.1.0
+controlnet-aux>=0.0.10
+huggingface-hub>=0.30.0
