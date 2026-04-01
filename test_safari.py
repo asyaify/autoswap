@@ -27,14 +27,17 @@ IMAGE_BG = "фон сафари.png"          # Safari background
 # STEP 1: Change outfit
 # =====================================================
 PROMPT_OUTFIT = (
-    "Change the girl's clothing to match the safari outfit from the second image exactly. "
-    "She must wear the exact same safari explorer costume: khaki vest, shorts, boots, and hat. "
-    "Copy every detail of the outfit from the second image. "
-    "Remove her current clothing completely. "
-    "Keep her exact face, eyes, hair, and expression unchanged. "
+    "Replace ALL of the girl's clothing with the exact safari explorer outfit from the second image. "
+    "She must wear: khaki safari jacket with four pockets and buttons, "
+    "khaki cargo shorts reaching above the knees, brown leather lace-up boots, "
+    "brown safari hat with leopard print band, and a white t-shirt under the jacket. "
+    "Remove the pink polka dot leggings completely — replace them with khaki cargo shorts. "
+    "Remove ALL original clothing: no pink leggings, no polka dots, no original pants. "
+    "Her legs below the shorts are bare with brown boots. "
+    "Keep her exact face, eyes, hair with braid, earrings, and standing pose unchanged. "
     "Same grey studio background, same lighting."
 )
-NEGATIVE_OUTFIT = "original clothing, casual clothes, blurry, distorted, artifacts, deformed, bad anatomy"
+NEGATIVE_OUTFIT = "pink leggings, polka dots, original pants, original clothing, long pants, tights, blurry, distorted, artifacts, deformed"
 
 def build_outfit_workflow():
     return {
