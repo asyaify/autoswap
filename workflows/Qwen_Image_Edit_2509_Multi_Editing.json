@@ -384,7 +384,7 @@
         4,
         1,
         "euler",
-        "simple",
+        "beta",
         1
       ]
     },
@@ -490,7 +490,7 @@
       ],
       "flags": {},
       "order": 3,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -526,7 +526,7 @@
         }
       },
       "widgets_values": [
-        "0_1 (5).png",
+        "одежда девочка.png",
         "image"
       ]
     },
@@ -728,7 +728,7 @@
         "ver": "0.3.59"
       },
       "widgets_values": [
-        ""
+        "blurry, distorted, artifacts, wrong clothing, different person"
       ],
       "color": "#223",
       "bgcolor": "#335"
@@ -793,7 +793,7 @@
         "ver": "0.3.59"
       },
       "widgets_values": [
-        "Replace the cat with a dalmatian"
+        "She is wearing the exact same outfit as shown in image 2. Keep the same pose, expression, and background as the original photo. Natural lighting."
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -846,7 +846,7 @@
         }
       },
       "widgets_values": [
-        "0_2 (12).png",
+        "девочка.JPG",
         "image"
       ]
     },
