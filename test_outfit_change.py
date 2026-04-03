@@ -266,7 +266,7 @@ def queue_prompt(prompt: dict) -> str:
     return prompt_id, client_id
 
 
-def wait_for_completion(prompt_id: str, timeout: int = 600) -> dict:
+def wait_for_completion(prompt_id: str, timeout: int = 1200) -> dict:
     """Poll /history until prompt completes."""
     start = time.time()
     while time.time() - start < timeout:
